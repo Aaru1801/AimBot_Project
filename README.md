@@ -39,8 +39,6 @@ This project leverages YOLOv8x for real-time object detection with advanced trac
 
 	2.	Install dependencies: pip install -r requirements.txt
 
-pip install -r requirements.txt
-
 
 	3.	(Optional) Create a virtual environment:
 
@@ -58,11 +56,11 @@ The script is fully configurable via config.json. Key settings include:
 	•	Target Prediction: Enable or disable advanced target prediction.
 
 
-🤝 Contributing
-Contributions are welcome! Please:
-	1.	Fork the repository.
-	2.	Create a new branch.
-	3.	Submit a pull request with a detailed explanation.
+| 🤝 Contributing        | Contributions are welcome! Please:                                                                 |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| **Step 1**             | Fork the repository.                                                                             |
+| **Step 2**             | Create a new branch.                                                                             |
+| **Step 3**             | Submit a pull request with a detailed explanation.                                               |
 
 
 
