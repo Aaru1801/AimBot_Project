@@ -17,13 +17,14 @@ This project leverages YOLOv8x for real-time object detection with advanced trac
 
 🛠️ Tech Stack
 
-Category	                                Libraries
-Core                                      Frameworks	torch, numpy, cv2, mss, ultralytics
-Multithreading & Queues	                  threading, queue, multiprocessing
-System Monitoring	                        psutil, tracemalloc, gc
-Data Handling	                            sqlite3, pandas, json, pickle, h5py
-Visualization	                            matplotlib
-Utility Libraries	                        logging, functools, hashlib, random, datetime
+| Category                | Libraries                                          |
+|-------------------------|---------------------------------------------------|
+| **Core**               | torch, numpy, cv2, mss, ultralytics               |
+| **Multithreading & Queues** | threading, queue, multiprocessing                  |
+| **System Monitoring**   | psutil, tracemalloc, gc                           |
+| **Data Handling**       | sqlite3, pandas, json, pickle, h5py               |
+| **Visualization**       | matplotlib                                        |
+| **Utility Libraries**   | logging, functools, hashlib, random, datetime     |
 
 
 
@@ -51,8 +52,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 📋 Configuration
 
 The script is fully configurable via config.json. Key settings include:
-	•	Detection Confidence: Adjust YOLO confidence threshold.
-	•	FPS Limit: Set frames-per-second limit.
+	•	Detection Confidence: Adjust the YOLO confidence threshold.
+	•	FPS Limit: Set a frames-per-second limit.
 	•	Click Delay Range: Customize mouse click intervals.
 	•	Target Prediction: Enable or disable advanced target prediction.
 
